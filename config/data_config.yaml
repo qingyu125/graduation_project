@@ -1,0 +1,14 @@
+paths:
+  raw_docred: "./data/raw/DocRED/train_distant.json"
+  pseudo_data: "./data/raw/general_pseudo.json"
+  processed_train: "./data/processed/train.json"
+  processed_val: "./data/processed/val.json"
+  processed_test: "./data/processed/test.json"
+  kg_path: "./data/kg/legal_kg.json"
+  output_dir: "./outputs"
+
+data_process:
+  train_val_test_split: [0.8, 0.1, 0.1]  # 训练/验证/测试集比例
+  max_docred_convert: 2000  # DocRED最大转换数量（避免内存溢出）
+  pseudo_sample_num: 500    # 通用伪样本数量
+  max_text_length: 1024     # 文本最大长度
