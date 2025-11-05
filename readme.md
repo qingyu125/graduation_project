@@ -28,10 +28,11 @@ text_reasoning/
 │   ├── metrics.py           # 要素抽取F1、推理准确率等指标  
 │   └── evaluator.py         # 模型评估流程  
 ├── applications/            # 场景应用  
-│   └── legal_relation_extraction.py  # 法律文档关系抽取系统  
+│   └── relation_extraction.py  # 关系抽取系统  
 ├── utils/                   # 工具函数  
 │   ├── code_safety.py       # 伪代码安全解析（AST替代exec）  
 │   └── data_processor.py    # 数据清洗与格式转换  
   
 └── main.py                  # 主流程调度（预处理→训练→评估→应用）  
 ```
+
