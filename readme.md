@@ -4,7 +4,7 @@
 ```
 docred_paper/  
 ├── train_model.py                     # 模型训练脚本
-├──prepare_docred_data                 # 数据处理
+├── prepare_docred_data                # 数据处理
 ├── requirements.txt                   # 依赖列表  
 ├── config/config.yaml                 # 配置文件  
 ├── README.md                          # 项目说明  
@@ -18,6 +18,7 @@ docred_paper/
     ├── gui/                           # GUI界面模块  
     └── utils/                         # 工具函数   
 ```
+
 
 
 
