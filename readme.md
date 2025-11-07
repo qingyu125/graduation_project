@@ -3,13 +3,13 @@
 ## 整体代码结构  
 ```
 docred_paper/  
-├── train_model.py                     # 模型训练脚本    
+├── train_model.py                     # 模型训练脚本
+├──prepare_docred_data                 # 数据处理
 ├── requirements.txt                   # 依赖列表  
 ├── config/config.yaml                 # 配置文件  
 ├── README.md                          # 项目说明  
 ├── data/                              # 数据目录   
-├── experiments/                       # 实验输出  
-├── scripts/                           # 辅助脚本  
+├── experiments/                       # 实验输出   
 └── src/                               # 源代码  
     ├──enhanced_gui.py                 # 主GUI入口  
     ├── data/                          # 数据处理模块  
@@ -18,6 +18,7 @@ docred_paper/
     ├── gui/                           # GUI界面模块  
     └── utils/                         # 工具函数   
 ```
+
 
 
 
