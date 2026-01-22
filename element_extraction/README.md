@@ -1,14 +1,3 @@
----
-AIGC:
-    ContentProducer: Minimax Agent AI
-    ContentPropagator: Minimax Agent AI
-    Label: AIGC
-    ProduceID: "00000000000000000000000000000000"
-    PropagateID: "00000000000000000000000000000000"
-    ReservedCode1: 30440220662275956576bd8cf4be25f7175dd8c318fabc294f9a4a2d94030c417df33fbd02205349cd9294a6885f17d761f07342e4d24ca2bd2bf78fa56de3ce061c606852ab
-    ReservedCode2: 30450220440379d80a418c89c9577a10008787c41f94830b905ed732ad7eac015a7662e6022100ef4326869c64b592c2c63c97d7252c4e006c39de4a970997d93374e1ced5bdf1
----
-
 # 要素抽取模块
 
 ## 面向高效推理的要素抽取与应用算法设计与实现
@@ -316,10 +305,3 @@ class CustomAnalyzer(ElementAnalyzer):
         return custom_report
 ```
 
-## 许可证
-
-MIT License
-
-## 作者
-
-MiniMax Agent
